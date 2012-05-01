@@ -113,6 +113,9 @@ public class AMXPerfMon {
 	}
 	
 	private void configGraph(LiveGraph lg) {
+		// Hide the time data series
+		lg.getDataSeriesSettings().setShow(0, false);
+		
 		GraphSettings conf = lg.getGraphSettings();
 		
 		// Set the graph bound for showing percentages
