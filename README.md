@@ -1,2 +1,2 @@
 # Usage
-    java -jar AMXPerfMon.jar <hostname> [<polling interval (ms)>]
+    AMXPerfMon.jar <hostname> [<polling interval (ms)>]
